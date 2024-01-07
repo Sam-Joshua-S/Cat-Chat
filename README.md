@@ -1,4 +1,3 @@
-```markdown
 # Your Assistant Cat!
 
 Welcome to Your Assistant Cat! This is a Streamlit application powered by Langchain and LlamaCpp to provide helpful AI assistance in a conversational manner.
