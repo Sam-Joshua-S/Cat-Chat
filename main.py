@@ -13,9 +13,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Access the variables in your code
-redis_host = os.getenv("REDIS_HOST")
-redis_port = os.getenv("REDIS_PORT")
-redis_password = os.getenv("REDIS_PASSWORD")
+
+redis_host = st.secrets["REDIS_HOST"]
+redis_port = st.secrets["REDIS_PORT"]
+redis_password = st.secrets["REDIS_PASSWORD"]
 
 
 
